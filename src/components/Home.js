@@ -1,21 +1,18 @@
 import React from 'react'
+import {user} from "./Data"
 
-function Home({images}) {
-    console.log(images)
-    const imageCard=images.map(individualImage=>(
+function Home(){
+  return(
+    <div className='homeparent'>
         <div>
-            <img src={individualImage.image} alt="dan" />
-            <h3>{individualImage.name}</h3>
-        </div>
-    ))
-
-  return (
-    <div className='home'>
-        {imageCard}
+            <img src={user.url} alt="ooops!"/>
+       </div>
+       <div>
         <h1>I am Web Developer</h1>
-        <button className=''>Hire me</button>
+       </div>
+
     </div>
   )
 }
 
-export default Home
+export default Home 
