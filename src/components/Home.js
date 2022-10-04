@@ -12,7 +12,8 @@ function Home({images}) {
   return (
     <div className='home'>
         {imageCard}
-        <h1>Hello Web developer</h1>
+        <h1>I am Web Developer</h1>
+        <button className=''>Hire me</button>
     </div>
   )
 }

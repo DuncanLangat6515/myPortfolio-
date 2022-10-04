@@ -7,7 +7,7 @@
 + [Authors-Info](#Authors-Info)
 
 ## Description 
-<p>This is  my personal portfolio </p>
+<p>This is  my personal portfolio where people can see my projects and are able to contact me, if in case they are interested in hiring me as a web developer.</p>
 
 ## Licence
 MIT License
