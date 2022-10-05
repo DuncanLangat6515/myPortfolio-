@@ -12,11 +12,7 @@ const[images, setImages]=useState([]);
 useEffect(()=>{
   fetch('http://localhost:3000/profile')
   .then(res=>res.json())
-  .then(data=>{
-    console.log(data)
-    setImages(data)
-    
-  })
+  .then(data=>setImages(data))
 },[])
 
 
@@ -24,7 +20,7 @@ useEffect(()=>{
     <div className="App">
       <NavBar/>
       <Switch>
-        <Route exact path="/about">
+        <Route exact path="/about"  >
           <About/>
         </Route>
         <Route exact path="/projects">
@@ -33,10 +29,11 @@ useEffect(()=>{
         <Route exact path="/contact">
           <Contact/>
         </Route>
-        <Route exact path="/">
-          <Home images={images} />
+        <Route exact path="/" >
+          <Home images={images}  />
         </Route>
       </Switch>
+        
 
       
     </div>
