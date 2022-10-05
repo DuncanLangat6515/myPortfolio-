@@ -10,7 +10,7 @@ function Home(){
        </div>
        <div>
         <h1>Hey I am <br></br> Duncan Langat  </h1>
-        <p></p>
+        <h2>Junior Frontend Developer/ JavaScript Expert/ Content Creator </h2>
        </div>
     </div>
     
