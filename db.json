@@ -19,44 +19,27 @@
       "email": "mm@gmail.com",
       "phoneno": "01120204435",
       "message": ""
-    },
-    {
-      "name": "Duncan Langat",
-      "email": "dancherry98@gmail.com",
-      "phoneno": "929372937",
-      "message": "sdcbisbvi",
-      "id": 7
-    },
-    {
-      "name": "Duncan Langat",
-      "email": "dancherry98@gmail.com",
-      "phoneno": "0714084167",
-      "message": "I like your projects ",
-      "id": 8
-    },
-    {
-      "name": "Duncan Langat",
-      "email": "dancherry98@gmail.com",
-      "phoneno": "0714084167",
-      "message": "Message",
-      "id": 9
     }
+    
   ],
   "projects": [
     {
       "id": 1,
       "name": "Apartments",
-      "image": "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      "image": "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "github": "https://github.com/DuncanLangat6515/Phase-1-Online-Selling-Apartments"
     },
     {
       "id": 2,
       "name": "Real Estate",
-      "image": "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      "image": "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "github": "https://github.com/DuncanLangat6515/Week-one-project"
     },
     {
       "id": 3,
       "name": "AgriPlus",
-      "image": "https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      "image": "https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "github": "https://github.com/DuncanLangat6515/AgriPlus"
     }
   ]
 }
