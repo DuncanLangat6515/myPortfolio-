@@ -17,46 +17,46 @@ function Contact() {
       [name]: value,
     });
   }
-    function handleSubmit(event) {
-      event.preventDefault();
-      fetch("http://localhost:3000/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(contact),
-      })
-        .then((response) => response.json())
-        .then((data) => {
-          const newContactData = [...newData, data];
-          setNewData(newContactData);
-        });
-     
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    fetch("http://localhost:3000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(contact),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        const newContactData = [...newData, data];
+        setNewData(newContactData);
+      });
   }
   return (
     <div>
       <form className="form" onSubmit={handleSubmit}>
-        <input
+        <input className="input"
           onChange={handleChange}
-          type="text"
+          type ="text"
           placeholder="enter your name"
           name="name"
         />
-        <input
+        <input className="input"
           onChange={handleChange}
           type="email"
           placeholder="enter your email"
           name="email"
         />
-        <input
+        <input className="input"
           onChange={handleChange}
           type="number"
           placeholder="enter your number"
           name="phoneno"
         />
-        <textarea onChange={handleChange} type="text" name="message" />
-        <input type="submit" placeholder="message me" />
-      </form>
+        <textarea className="input"  placeholder="message me" onChange={handleChange} type="text" name="message" />
+        <button> <input type="submit"  /></button>
+      </form>{" "}
     </div>
   );
 }
