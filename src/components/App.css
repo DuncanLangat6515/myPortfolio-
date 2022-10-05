@@ -120,11 +120,19 @@
 .form{
 padding-top: 200px;
 box-sizing: border-box;
+padding:30px;
+margin: 50px;
+
 }
 
-.form input{
-  padding: 10px;
-  width: 20%;
+.input{
+  width: 500px;
+  padding: 12px;
+  margin: 12px;
+}
+.input:hover{
+  border: 2px solid rgb(15, 215, 215);
+  border-radius: 10px;
 }
 .imageCard img{
   height: 400px;
