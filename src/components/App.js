@@ -15,6 +15,7 @@ useEffect(()=>{
   .then(data=>{
     console.log(data)
     setImages(data)
+    
   })
 },[])
 
