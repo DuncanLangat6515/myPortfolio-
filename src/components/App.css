@@ -1,29 +1,35 @@
 .App {
   text-align: center;
-   height: 100vh;
-  width: 100vw; 
   background-color: white;
-  background-size: cover;
   font-family: 'Poppins', sans-serif;
-  
-  
-  
-  
+
 }
-@media only screen and (max-width: 500px){
+@media screen and (max-width: 600px) {
+  .homeparent img{
+    height: 200px;
+    width: 200px;
+   
+  }
   
-  .navbar {
-    width: 600px;
+  .homeparent {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .navbar a{
+    padding: auto;
+  }
+  .card{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
   }
 }
-
-  
-
-
 .navbar{
   padding: 10px 10px 10px 10px;
-  padding-top: 30px;
   background-color: whitesmoke;
+  width: auto;
   height: 65px;
   border-bottom: ridge;
 }
@@ -35,6 +41,7 @@
   font-size: 20px;
   text-align: center;
   font-weight: 600;
+  align-items: center;
 }
 
 .navbar a:hover{
@@ -42,11 +49,6 @@
   background-color: rgb(15, 215, 215);
   align-items: center;
   
-}
-
-.home{
-  display: flex;
-  flex-direction: row;
 }
 
 .form{
@@ -58,33 +60,36 @@
 }
 
 .button{
+
+  padding:10px;
   background : blue;
+  border-radius: 9px;
   text-decoration: none;
   font-weight: 500;
-  margin-top: -90px;
   color: white;
-  box-sizing: border-box;
+  border: 1px solid blue;
+ 
+  
 }
 
 .homeparent img{
-  width: 700px;
-  height: 600px;
+  width: 400px;
+  height: 500px;
   justify-content: space-between;
   padding-top: 60px;
-  border-radius: 30px;
+  border-radius: 50%;
   
 }
 
 .homeparent{
   display: flex;
-  justify-content: space-between;
-  margin-left: 90px;
-  margin-right: 0px;
+  justify-content: space-around;
+  margin: auto;
   font-size: 30px;
   color: navy;
-;
- 
-
+}
+.button:hover{
+   box-shadow: 2px 4px 2px grey;
   
 }
 
@@ -141,6 +146,12 @@ margin: 50px;
 }
 .card{
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
+}
+
+.imageCard a{
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  height: 20px;
 }
