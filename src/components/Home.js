@@ -10,9 +10,11 @@ function Home(){
         <div>
             <img src={user.url} alt="ooops!"/>
        </div>
-       <div>
-        <h1>Hey I am <br></br> Duncan Langat  </h1>
-        <h2>Junior Frontend Developer/ JavaScript Expert/ Content Creator </h2>
+       <div className='intro'>
+        <h3>Hey I am Duncan Langat  </h3>
+        <p>Junior Frontend Developer/ JavaScript Expert/ Content Creator <br></br>   
+        I will be glad to work with you 
+        </p>
        </div>
 </div>
     <Link to='/contact' className='button'>HIRE ME</Link>
