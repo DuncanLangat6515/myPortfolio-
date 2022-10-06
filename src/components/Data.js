@@ -4,7 +4,7 @@ const user={
 }
 
 const code={
-    image:"https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    image:"https://media.istockphoto.com/photos/top-above-high-angle-view-portrait-of-his-he-nice-attractive-focused-picture-id1279133399?b=1&k=20&m=1279133399&s=612x612&w=0&h=mij92vfrhvYIKOE0sNuELZP9YLDUrGCl61sMCuLkqWQ="
 }
 
 
