@@ -14,7 +14,11 @@ function Project() {
       <div className="imageCard">
         <h1>{everyproject.name}</h1>
         <img src={everyproject.image } alt="oops"/>
+        <br></br> <p>Project I used HTML,CSS and JavaScript</p>
+
+        <a href={everyproject.github}> Show Project</a>
       </div>
+
     </>
   ));
   return <div className="card">
